@@ -129,6 +129,16 @@ def index():
     return render_template('index.html')
 
 
+#-------------ruta de la pagina login-de prueba en github----------ELIMINAAAAAAAAAAAAAAAAAAAAR
+@app.route('/Hola')
+def login():
+    return render_template('login_logholaaaaa.html')
+
+@app.route('/indexo999999')
+def index():
+    return render_template('index.html')
+
+
 #-------------ruta de la pagina Consulta y nuevo en xd github
 
 
