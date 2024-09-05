@@ -118,6 +118,7 @@ def iniciar_sesion():
 
     
 
+
 #-------------ruta de la pagina login----------
 @app.route('/')
 def login():
@@ -128,7 +129,8 @@ def index():
     return render_template('index.html')
 
 
-#-------------ruta de la pagina Consulta
+#-------------ruta de la pagina Consulta y nuevo en xd github
+
 
 @app.route('/CONSULTA')
 def consulta():
