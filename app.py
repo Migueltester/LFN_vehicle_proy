@@ -112,7 +112,7 @@ def iniciar_sesion():
         flash('Inicio de sesión exitoso', 'success')
         return redirect(url_for('registro'))
     else:
-        flash('Nombre de usuario o contraseña incorrectos', 'danger')
+        flash('Nombre de usuario o contraseña incorrectos, vuelva a intentarlo', 'danger')
         return redirect(url_for('login'))
     
 
