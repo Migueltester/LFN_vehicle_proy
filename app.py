@@ -129,7 +129,7 @@ def index():
     return render_template('index.html')
 
 
-#-------------ruta de la pagina login-de prueba en github----------ELIMINAAAAAAAAAAAAAAAAAAAARr
+#-------------ruta AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA de la pagina login-de prueba en github----------ELIMINAAAAAAAAAAAAAAAAAAAARr
 @app.route('/Hola')
 def login():
     return render_template('login_logholaaaaa.html')
